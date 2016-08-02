@@ -7,7 +7,7 @@ public:
 	ofTexture tex;
 	ofPixels pix;
 
-	void putPixel(int x, int y, int red, int blue, int green);
+	void putPixel(int x, int y, int r, int g, int b);
 	void getPixel();
 	void init();
 	void draw();

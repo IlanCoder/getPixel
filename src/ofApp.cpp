@@ -7,7 +7,7 @@ void ofApp::setup(){
 
 //--------------------------------------------------------------
 void ofApp::update() {
-	pixel.putPixel(ofRandom(ofGetWidth()), ofRandom(ofGetHeight()), ofRandom(255), ofRandom(255), ofRandom(255));
+	pixel.putPixel(ofRandom(ofGetWidth()), ofRandom(ofGetHeight()), 255,0,0);
 	pixel.getPixel();
 }
 

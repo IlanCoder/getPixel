@@ -1,7 +1,9 @@
 #include "Pixel.h"
 
-void Pixel::putPixel(int x, int y, int red, int blue, int green){
-	pix.setColor(x, y, (red, blue, green));
+void Pixel::putPixel(int x, int y, int r, int g, int b){
+	ofColor col;
+	col.set(r, g, b);
+	pix.setColor(x, y, col);
 }
 
 void Pixel::getPixel(){
